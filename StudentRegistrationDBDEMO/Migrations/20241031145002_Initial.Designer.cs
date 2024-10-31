@@ -11,8 +11,8 @@ using StudentRegistrationDBDEMO;
 namespace StudentRegistrationDBDEMO.Migrations
 {
     [DbContext(typeof(StudentDbContext))]
-    [Migration("20241031122118_Inital")]
-    partial class Inital
+    [Migration("20241031145002_Initial")]
+    partial class Initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
