@@ -5,7 +5,7 @@ namespace StudentRegistrationDBDEMO
     internal class Student
     {
         [Key]
-        public int StudentId { get; }
+        public int StudentId { get; private set; }
 
         [Required(ErrorMessage = "First name is required.")]
         public string? StudentFirstName { get; set; }
